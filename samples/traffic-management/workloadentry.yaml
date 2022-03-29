@@ -1,0 +1,10 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: WorkloadEntry
+metadata:
+  name: details-svc
+spec:
+  serviceAccount: details-legacy
+  address: 2.2.2.2
+  labels:
+    app: details-legacy
+    instance-id: vm1

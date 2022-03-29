@@ -48,8 +48,6 @@ curl -sL https://istio.tetratelabs.io/getmesh/install.sh | bash
 getmesh istioctl install --set profile=demo
 ```
 
-See [getmesh](getmesh) cheatsheet for more details.
-
 ## Istio Operator
 
 ### Operator
