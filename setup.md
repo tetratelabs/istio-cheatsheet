@@ -94,6 +94,19 @@ The profiles provide customization of the Istio control plane and of the sidecar
 
 Except the profiles above, there are `external` and `empty` profile that will not install any component list within the table.
 
+## Resources Limiting
+
+### Sidecar
+
+Using the various resource [annotations](https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/) that Istio supports to control sidecar behavior.
+
+- `sidecar.istio.io/proxyCPU` : Specifies the requested CPU setting for the Envoy sidecar.
+- `sidecar.istio.io/proxyCPULimit`: Specifies the CPU limit for the Envoy sidecar.
+- `sidecar.istio.io/proxyMemory`: Specifies the requested memory setting for the Envoy sidecar.
+- `sidecar.istio.io/proxyMemoryLimit`:  Specifies the memory limit for the Envoy sidecar.
+
+[See the details](https://istio.io/latest/docs/reference/config/annotations/) of sidecar annotations.
+
 ## Checklist
 
 ### Install distroless images
