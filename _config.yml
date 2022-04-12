@@ -50,7 +50,7 @@ defaults:
 
 # Site info
 
-url: https://cheatsheet.tetrate.io/
+url: https://tetrate.io/cheatsheet/
 title: Istio cheatsheet
 
 repository: tetrateio/istio-cheatsheet
