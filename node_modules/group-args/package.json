@@ -1,0 +1,42 @@
+{
+  "name": "group-args",
+  "version": "0.1.0",
+  "description": "My praiseworthy module",
+  "license": "MIT",
+  "repository": "bezoerb/group-args",
+  "author": {
+    "name": "Ben Zörb",
+    "email": "ben@sommerlaune.com",
+    "url": "sommerlaune.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "args",
+    "argument",
+    "cli",
+    "command",
+    "option",
+    "grouping",
+    "cluster"
+  ],
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "nyc": "^6.4.0",
+    "xo": "^0.14.0"
+  },
+  "xo": {
+    "space": 4
+  }
+}
