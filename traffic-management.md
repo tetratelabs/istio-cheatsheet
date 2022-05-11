@@ -133,7 +133,7 @@ spec:
 
 The interpretation of the fields in the sample.
 
-- `host`:  The name of a service from the service registry. `ratings.prod.svc.cluster.local` stand for a service called `rating` in `prod` namespace in Kubernetes.
+- `host`:  The name of a service from the service registry. `productpage.bookinfo.svc.cluster.local` stand for a service called `productpage` in `bookinfo` namespace in Kubernetes.
 - `trafficPolicy`: Traffic policies to apply (load balancing policy, connection pool sizes, outlier detection). 
 - `subsets`: One or more named sets that represent individual versions of a service. It can be used for scenarios like A/B testing, or routing to a specific version of a service. It will be referred from [VirtualService](virtualservice).
 
