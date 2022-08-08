@@ -2,3 +2,5 @@ enabled: true
 names:
   - CLI
   - Resources
+  - Concepts
+  - Others

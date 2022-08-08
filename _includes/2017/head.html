@@ -1,6 +1,8 @@
 {% include meta.html %}
 {% include polyfills.html %}
 
+<link rel='stylesheet' href='{{base}}/assets/bigger-picture-1.1.5/bigger-picture.css?t={{ timestamp }}'>
+
 <!-- critical css -->
 {% if include.critical == 'home'
 %}<style id='critical-css'>{% include 2017/critical/home.css %}</style>{%

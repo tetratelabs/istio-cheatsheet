@@ -4,7 +4,7 @@
 
 This starts Jekyll and Webpack.
 
-```
+```bash
 yarn install
 bundle install
 env PORT=4001 yarn run dev
@@ -12,7 +12,7 @@ env PORT=4001 yarn run dev
 
 ## CSS classes
 
-See <https://jimmysong.io/cheatsheets/cheatsheet-styles> for a reference on styling.
+See the [Cheatsheet Style](https://jimmysong.io/cheatsheets/cheatsheet-styles) for a reference on styling.
 
 ## JavaScript
 

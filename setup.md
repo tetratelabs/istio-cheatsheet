@@ -5,7 +5,7 @@ prism_languages: [bash,yaml]
 weight: -3
 tags: [Featured]
 updated: 2022-03-17
-category: Setup
+category: Others
 intro:
   Cheatsheet for installing the Istio control plane on Kubernetes.
 ---
