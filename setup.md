@@ -18,6 +18,7 @@ intro:
 
 | Version | Currently Supported | Supported Kubernetes Versions | Tested, but not supported    |
 | ------- | ------------------- | ----------------------------- | ---------------------------- |
+| 1.15	  | Yes                 | 1.22, 1.23, 1.24, 1.25 | 1.16, 1.17, 1.18, 1.19, 1.20, 1.21 |
 | 1.14	  | Yes                 | 1.21, 1.22, 1.23, 1.24        | 1.16, 1.17, 1.18, 1.19, 1.20 |
 | 1.13    | Yes                 | 1.20, 1.21, 1.22, 1.23        | 1.16, 1.17, 1.18, 1.19       |
 | 1.12    | Yes                 | 1.19, 1.20, 1.21, 1.22        | 1.16, 1.17, 1.18             |
@@ -26,7 +27,7 @@ intro:
 | 1.9     | No                  | 1.17, 1.18, 1.19, 1.20        | 1.15, 1.16                   |
 | 1.8     | No                  | 1.16, 1.17, 1.18, 1.19        | 1.15                         |
 | 1.7     | No                  | 1.16, 1.17, 1.18              | 1.15                         |
-{: .-headers}   
+{: .-headers}
 
 Visit [istio.io](https://istio.io/latest/docs/releases/supported-releases/#support-status-of-istio-releases) for more details.
 
